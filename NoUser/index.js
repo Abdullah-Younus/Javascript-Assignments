@@ -1,6 +1,6 @@
 let usernames = []
 
-if (usernames === null) {
+if (usernames.length) {
     for (let i = 0; i <= usernames.length; i++) {
         if (usernames[i] === "admin") {
             document.writeln(`Hello ${usernames}, would you like to see a status report?`);
