@@ -12,5 +12,4 @@ for (let i = 0; i < list.length; i++) {
     else {
         document.writeln(`${list[i]}th` + "<br/>")
     }
-
 }
