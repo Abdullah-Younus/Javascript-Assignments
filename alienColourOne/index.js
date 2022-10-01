@@ -1,4 +1,4 @@
-alien_color = "green";
+let alien_color = "green";
 if (alien_color == "green") {
     document.writeln(`${alien_color}  Your just earned 5 points!`)
 }
