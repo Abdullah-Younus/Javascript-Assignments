@@ -2,14 +2,12 @@ function make_car(manufacturer, model, ...options) {
     document.writeln(`Make a explain car.`);
     car_parts = {
         "manfacturer": manufacturer,
-        "model": model
+        "model": model,
+        "moreOptions": options
     }
-    options.forEach(element => {
-        return car_parts[options] = element
-    });
     return car_parts;
 }
 
-corola = make_car('subaru', 'outback', color = 'blue', tow_package = "chck");
-console.log(corola);
+cars = make_car('subaru', 'outback', color = 'blue', tow_package = "chck");
+console.log(cars);
 // make_car('subaru', 'outback', color = 'blue', tow_package = "chck");
